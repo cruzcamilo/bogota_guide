@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BogotaGuide</string>
+    <string name="category_malls">Centros
+        Comerciales</string>
+    <string name="category_museums">Museos</string>
+    <string name="category_parks">Parques</string>
+    <string name="category_restaurants">Restaurantes</string>
+    <string name="mainHours1">Martes a Sábado: 10 am - 6 pm</string>
+    <string name="hours">Horario:</string>
+    <string name="alternativeHours1">Domingo: 10 am - 5 pm</string>
+    <string name="address">Dirección:</string>
+    <string name="website">Sitio Web:</string>
+    <string name="mainHours2">Lunes a Sábado: 9 am - 7 pm</string>
+    <string name="mainHours3">Lunes a Viernes 9 am - 5 pm</string>
+    <string name="alternativeHours2">Domingo: 12 pm - 5 pm</string>
+    <string name="alternativeHours3">Sábado - Domingo: 10 am - 4 pm</string>
+    <string name="mainHours4">Lunes a Sábado: 9 am - 6 pm</string>
+    <string name="mainHours24">24 Horas</string>
+    <string name="mainHoursAC">Martes a Domingo: 11:30 am - 3:00 pm</string>
+    <string name="mainHoursBB">Lunes a Domingo: 11:30 am - 9:00 pm</string>
+    <string name="mainHoursDE">Miércoles a Domingo: 12 pm - 4 pm</string>
+    <string name="mainHoursDS">Domingo a Domingo: 7 am - 4 pm</string>
+    <string name="mainHoursEV">Lunes a Sábado: 11:30 am - 4:30 pm</string>
+    <string name="mainHoursLO">Domingo a Domingo: 10 am - 6 pm</string>
+    <string name="mainHoursRM">Domingo a Domingo: 12 pm - 4:30 pm</string>
+    <string name="alternativeHours4">Domingo: 10 am - 4 pm</string>
+    <string name="altHoursAn">Viernes a Domingo: Detalles en el sitio web</string>
+    <string name="altHoursSF">Domingos y Festivos: 11 am - 8 pm</string>
+    <string name="mainHoursAn">Lunes a Viernes: 10 am - 8 pm</string>
+    <string name="mainHoursGE">Domingo a Domingo: 9 am - 9 pm</string>
+    <string name="mainHoursPA">Domingo a Domingo: 8 am - 10 pm</string>
+    <string name="mainHoursPC">Domingo a Domingo: 7:45 am - 10 pm</string>
+    <string name="mainHoursSF">Lunes a Sábado: 10 am - 9 pm</string>
+    <string name="mainHoursTP">Domingo a Domingo: 8:30 am - 10 pm</string>
+    <string name="mainHoursUni">Domingo a Domingo: 8 am - 11 pm</string>
+    <string name="mainHoursParqueNovios">Lunes a Viernes de 8 am - 12 pm\n y 2 pm - 4 pm</string>
+    <string name="mainHoursSM">Domingo a Domingo: 6 am a 6 pm</string>
+    <string name="altHoursParqueNovios">Sabados, domingos y festivos: 10 am - 1 pm</string>
+
+    <string name="websiteHours">Visita el sitio web.</string>
+    <string name="mainHoursJardinBotanico">Lunes a Viernes: 8 am - 5 pm</string>
+    <string name="altHoursJardinBotanico">Fines de semana y festivos: 9:00 a.m. a 5:00</string>
+</resources>

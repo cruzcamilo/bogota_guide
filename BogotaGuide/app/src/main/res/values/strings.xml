@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BogotaGuide</string>
+    <string name="address">Address: </string>
+    <string name="hours">Hours: </string>
+    <string name="website">Website: </string>
+
+    <string name="category_museums">Museums</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_malls">Malls</string>
+    <string name="mainHours1">Tuesday to Saturday: 10 am - 6 pm</string>
+    <string name="alternativeHours1">Sunday 10 am - 5 pm</string>
+    <string name="mainHours2">Monday to Saturday: 9 am - 7 pm. Tuesday: Closed</string>
+    <string name="alternativeHours2">Sunday 12 pm - 5 pm</string>
+    <string name="mainHours3">Monday to Friday: 9 am - 5 pm</string>
+    <string name="alternativeHours3">Saturday - Sunday 10 am - 4 pm</string>
+    <string name="mainHours4">Monday to Saturday: 9 am - 6 pm</string>
+    <string name="alternativeHours4">Sunday: 10 am - 4 pm</string>
+    <string name="mainHoursDS">Sunday to Sunday: 7 am - 4 pm</string>
+    <string name="mainHoursDE">Wendsday to Sunday: 12 pm - 4 pm</string>
+    <string name="mainHoursLO">Sunday to Sunday: 10 am - 6 pm</string>
+    <string name="mainHoursRM">Sunday to Sunday: 12 pm - 4:30 pm</string>
+    <string name="mainHoursBB">Monday to Sunday: 11:30 am - 9:00 pm</string>
+    <string name="mainHoursAC">Tuesday to Sunday: 11:30 am - 3:00 pm</string>
+    <string name="mainHoursEV">Monday to Saturday: 11:30 am - 4:30 pm</string>
+    <string name="mainHoursUni">Sunday to Sunday: 8 am - 11 pm</string>
+    <string name="mainHoursAn">Monday to Tuesday: 10 am - 8 pm</string>
+    <string name="altHoursAn">Friday to Sunday: Info on the website</string>
+    <string name="mainHoursSF">Monday to Saturday: 10 am - 9 pm</string>
+    <string name="altHoursSF">Sunday and Holidays: 11 am - 8 pm</string>
+    <string name="mainHoursTP">Sunday to Sunday: 8:30 am - 10 pm</string>
+    <string name="mainHoursGE">Sunday to Sunday: 9 am - 9 pm</string>
+    <string name="mainHoursPA">Sunday to Sunday: 8 am - 10 pm</string>
+    <string name="mainHoursPC">Sunday to Sunday: 7:45 am - 10 pm</string>
+    <string name="mainHoursSM">Sunday to Sunday: 6 am - 6 pm</string>
+    <string name="mainHoursJardinBotanico">Monday to Friday: 8 am - 5 pm</string>
+    <string name="altHoursJardinBotanico">Weekends and holydays: 9 am - 5 pm</string>
+    <string name="mainHours24">24 Hours</string>
+    <string name="websiteHours">Visit Website</string>
+
+    <string name="mainHoursParqueNovios">Monday to Friday: 8 am - 12 pm; 2pm - 4pm</string>
+    <string name="altHoursParqueNovios">Saturday, Sunday and holydays: 10 am - 1 pm</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/place_name"
+            style="@style/PlaceName"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/place_name"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:id="@+id/place_address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/address"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/place_address"
+            style="@style/ContentWords"
+            android:layout_below="@id/image"
+            android:layout_toRightOf="@id/place_address_title" />
+
+        <TextView
+            android:id="@+id/hours_title"
+            style="@style/TitleContent"
+            android:layout_below="@id/place_address_title"
+            android:text="@string/hours" />
+
+        <TextView
+            android:id="@+id/place_main_hours"
+            style="@style/ContentWords"
+            android:layout_below="@id/place_address"
+            android:layout_toRightOf="@id/place_address_title" />
+
+        <TextView
+            android:id="@+id/place_alternative_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/place_main_hours"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/place_address_title"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/website_title"
+            style="@style/TitleContent"
+            android:layout_below="@id/place_alternative_hours"
+            android:layout_marginBottom="8dp"
+            android:text="@string/website" />
+
+        <TextView
+            android:id="@+id/place_website"
+            style="@style/ContentWords1"
+            android:layout_below="@id/place_alternative_hours"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/website_title"
+            android:autoLink="web" />
+    </RelativeLayout>
+
+</LinearLayout>
