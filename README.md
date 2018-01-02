@@ -14,8 +14,8 @@ This app shows lists of recommended places to visit in Bogotá in 4 categories:
 
 # Screenshots
 
-![ ](Screenshots/screenshot_english1.png)
 ![ ](Screenshots/screenshot_english2.png)
+![ ](Screenshots/screenshot_english1.png)
 
 <hr>
 
