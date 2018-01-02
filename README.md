@@ -30,7 +30,7 @@ Esta aplicación muestra listas de lugares recomendados para visitar en Bogotá 
 
 # Características
 
-- Implementación de `Listview`, `ArrayAdapter`, `ViewPager` y patrón `ViewHolder`
+- Uso de `Listview`, `ArrayAdapter`, `ViewPager` y patrón `ViewHolder`
 - Cada lugar incluye incluye información de: dirección, horarios y sitio web.
 
 # Screenshots
