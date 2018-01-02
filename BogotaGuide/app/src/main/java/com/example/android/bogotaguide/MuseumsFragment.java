@@ -9,9 +9,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MuseumsFragment extends Fragment {
 
     public MuseumsFragment() {
@@ -25,23 +22,30 @@ public class MuseumsFragment extends Fragment {
 
         final ArrayList<Place> museums = new ArrayList<Place>();
 
-        museums.add(new Place("Museo Nacional", "Cra 7a #28-66", R.string.mainHours1,
-                R.string.alternativeHours1, "http://www.museonacional.gov.co" ));
-        museums.add(new Place("Museo de Arte del Banco de la República", "Calle 11 # 4-21",
-                R.string.mainHours2, R.string.alternativeHours1,
-                "http://banrepcultural.org/coleccion-de-arte-banco-de-la-republica/"));
-        museums.add(new Place("MAMBO", "Calle 24 #6 - 00", R.string.mainHours1,
-                R.string.alternativeHours2, "http://www.mambogota.com"));
-        museums.add(new Place("Museo Colonial", "Carrera 6 No. 9 - 77", R.string.mainHours3,
-                R.string.alternativeHours3, "http://www.museocolonial.gov.co"));
-        museums.add(new Place("Casa de Moneda", "Calle 11 # 4-93", R.string.mainHours2,
-                R.string.alternativeHours2, "http://www.banrepcultural.org/museos-y-colecciones/casa-de-moneda"));
-        museums.add(new Place("Museo Botero", "Calle 11 # 4 - 14", R.string.mainHours2,
-                R.string.alternativeHours1, "http://www.banrepcultural.org/museo-botero"));
-        museums.add(new Place("Museo del Oro", "Cra 6 # 15-82", R.string.mainHours4,
-                R.string.alternativeHours4, "http://www.banrepcultural.org/museo-del-oro"));
-        museums.add(new Place("Museo de Bogotá", "Cra. 4 # 10-18", R.string.mainHours1,
-                R.string.alternativeHours4, "http://museodebogota.gov.co/"));
+        museums.add(new Place(getString(R.string.museum_name_1), getString(R.string.museum_address_1),
+                R.string.main_hours_1, R.string.alt_hours_1,
+                getString(R.string.museum_website_1) ));
+        museums.add(new Place(getString(R.string.museum_name_2), getString(R.string.museum_address_2),
+                R.string.main_hours_2, R.string.alt_hours_1,
+                getString(R.string.museum_website_2)));
+        museums.add(new Place(getString(R.string.museum_name_3), getString(R.string.museum_address_3),
+                R.string.main_hours_1, R.string.alt_hours_2,
+                getString(R.string.museum_website_3)));
+        museums.add(new Place(getString(R.string.museum_name_4), getString(R.string.museum_address_4),
+                R.string.main_hours_3, R.string.alt_hours_3,
+                getString(R.string.museum_website_4)));
+        museums.add(new Place(getString(R.string.museum_name_5), getString(R.string.museum_address_5),
+                R.string.main_hours_2,  R.string.alt_hours_2,
+                getString(R.string.museum_website_5)));
+        museums.add(new Place(getString(R.string.museum_name_6), getString(R.string.museum_address_6),
+                R.string.main_hours_2, R.string.alt_hours_1,
+                getString(R.string.museum_website_6)));
+        museums.add(new Place(getString(R.string.museum_name_7), getString(R.string.museum_address_7),
+                R.string.main_hours_4, R.string.alt_hours_4,
+                getString(R.string.museum_website_7)));
+        museums.add(new Place(getString(R.string.museum_name_8), getString(R.string.museum_address_8),
+                R.string.main_hours_1, R.string.alt_hours_4,
+                getString(R.string.museum_website_8)));
 
         PlaceAdapter adapter =
                 new PlaceAdapter(getActivity(), museums, R.color.museumBackgroundColor);

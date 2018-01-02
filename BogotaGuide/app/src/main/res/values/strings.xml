@@ -8,37 +8,156 @@
     <string name="category_parks">Parks</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_malls">Malls</string>
-    <string name="mainHours1">Tuesday to Saturday: 10 am - 6 pm</string>
-    <string name="alternativeHours1">Sunday 10 am - 5 pm</string>
-    <string name="mainHours2">Monday to Saturday: 9 am - 7 pm. Tuesday: Closed</string>
-    <string name="alternativeHours2">Sunday 12 pm - 5 pm</string>
-    <string name="mainHours3">Monday to Friday: 9 am - 5 pm</string>
-    <string name="alternativeHours3">Saturday - Sunday 10 am - 4 pm</string>
-    <string name="mainHours4">Monday to Saturday: 9 am - 6 pm</string>
-    <string name="alternativeHours4">Sunday: 10 am - 4 pm</string>
-    <string name="mainHoursDS">Sunday to Sunday: 7 am - 4 pm</string>
-    <string name="mainHoursDE">Wendsday to Sunday: 12 pm - 4 pm</string>
-    <string name="mainHoursLO">Sunday to Sunday: 10 am - 6 pm</string>
-    <string name="mainHoursRM">Sunday to Sunday: 12 pm - 4:30 pm</string>
-    <string name="mainHoursBB">Monday to Sunday: 11:30 am - 9:00 pm</string>
-    <string name="mainHoursAC">Tuesday to Sunday: 11:30 am - 3:00 pm</string>
-    <string name="mainHoursEV">Monday to Saturday: 11:30 am - 4:30 pm</string>
-    <string name="mainHoursUni">Sunday to Sunday: 8 am - 11 pm</string>
-    <string name="mainHoursAn">Monday to Tuesday: 10 am - 8 pm</string>
-    <string name="altHoursAn">Friday to Sunday: Info on the website</string>
-    <string name="mainHoursSF">Monday to Saturday: 10 am - 9 pm</string>
-    <string name="altHoursSF">Sunday and Holidays: 11 am - 8 pm</string>
-    <string name="mainHoursTP">Sunday to Sunday: 8:30 am - 10 pm</string>
-    <string name="mainHoursGE">Sunday to Sunday: 9 am - 9 pm</string>
-    <string name="mainHoursPA">Sunday to Sunday: 8 am - 10 pm</string>
-    <string name="mainHoursPC">Sunday to Sunday: 7:45 am - 10 pm</string>
-    <string name="mainHoursSM">Sunday to Sunday: 6 am - 6 pm</string>
-    <string name="mainHoursJardinBotanico">Monday to Friday: 8 am - 5 pm</string>
-    <string name="altHoursJardinBotanico">Weekends and holydays: 9 am - 5 pm</string>
-    <string name="mainHours24">24 Hours</string>
+
+    <string name="main_hours_1">Tuesday to Saturday: 10 am - 6 pm</string>
+    <string name="alt_hours_1">Sunday 10 am - 5 pm</string>
+    <string name="main_hours_2">Monday to Saturday: 9 am - 7 pm. Tuesday: Closed</string>
+    <string name="alt_hours_2">Sunday 12 pm - 5 pm</string>
+    <string name="main_hours_3">Monday to Friday: 9 am - 5 pm</string>
+    <string name="alt_hours_3">Saturday - Sunday 10 am - 4 pm</string>
+    <string name="main_hours_4">Monday to Saturday: 9 am - 6 pm</string>
+    <string name="alt_hours_4">Sunday: 10 am - 4 pm</string>
+
+    <string name="mall_name_1" translatable="false">Unicentro</string>
+    <string name="mall_name_2" translatable="false">Andino</string>
+    <string name="mall_name_3" translatable="false">Santa Fe</string>
+    <string name="mall_name_4" translatable="false">Titán Plaza</string>
+    <string name="mall_name_5" translatable="false">Gran Estación</string>
+    <string name="mall_name_6" translatable="false">Plaza de las Américas</string>
+    <string name="mall_name_7" translatable="false">Calima</string>
+    <string name="mall_name_8" translatable="false">Plaza Central</string>
+    <string name="mall_address_1" translatable="false">Cra. 15 # 124 - 30</string>
+    <string name="mall_address_2" translatable="false">Cra. 11 # 82 - 71</string>
+    <string name="mall_address_3" translatable="false">Calle 185 # 45 - 03</string>
+    <string name="mall_address_4" translatable="false">Av. Boyacá # 80 - 94</string>
+    <string name="mall_address_5" translatable="false">Av. Calle 26 # 62 - 47</string>
+    <string name="mall_address_6" translatable="false">Transversal 71 D # 6 - 94 Sur</string>
+    <string name="mall_address_7" translatable="false">Av. Cra. 30 # 19</string>
+    <string name="mall_address_8" translatable="false">Cra. 65 # 11 - 50</string>
+    <string name="mall_website_1" translatable="false">http://www.unicentrobogota.com</string>
+    <string name="mall_website_2" translatable="false">https://www.centroandino.com.co</string>
+    <string name="mall_website_3" translatable="false">
+        http://www.centrocomercialsantafe.com/bogota</string>
+    <string name="mall_website_4" translatable="false">http://www.titanplaza.com</string>
+    <string name="mall_website_5" translatable="false">http://www.granestacion.com.co</string>
+    <string name="mall_website_6" translatable="false">
+        https://www.plazadelasamericas.com.co/</string>
+    <string name="mall_website_7" translatable="false">http://www.calimaccbogota.com</string>
+    <string name="mall_website_8" translatable="false">https://centrocomercialplazacentral.com</string>
+    <string name="main_hours_mall_1">Sunday to Sunday: 8 am - 11 pm</string>
+    <string name="main_hours_mall_2">Monday to Tuesday: 10 am - 8 pm</string>
+    <string name="alt_hours_mall_2">Friday to Sunday: Info on the website</string>
+    <string name="main_hours_mall_3">Monday to Saturday: 10 am - 9 pm</string>
+    <string name="alt_hours_mall_3">Sunday and Holidays: 11 am - 8 pm</string>
+    <string name="main_hours_mall_4">Sunday to Sunday: 8:30 am - 10 pm</string>
+    <string name="main_hours_mall_5">Sunday to Sunday: 9 am - 9 pm</string>
+    <string name="main_hours_mall_6">Sunday to Sunday: 8 am - 10 pm</string>
+    <string name="main_hours_mall_8">Sunday to Sunday: 7:45 am - 10 pm</string>
+
+    <string name="museum_name_1" translatable="false">Museo Nacional</string>
+    <string name="museum_name_2" translatable="false">Museo de Arte del Banco de la República</string>
+    <string name="museum_name_3" translatable="false">MAMBO</string>
+    <string name="museum_name_4" translatable="false">Museo Colonial</string>
+    <string name="museum_name_5" translatable="false">Casa de Moneda</string>
+    <string name="museum_name_6" translatable="false">Museo Botero</string>
+    <string name="museum_name_7" translatable="false">Museo del Oro</string>
+    <string name="museum_name_8" translatable="false">Museo de Bogotá</string>
+    <string name="museum_address_1" translatable="false">Cra 7a # 28 – 66</string>
+    <string name="museum_address_2" translatable="false">Calle 11 # 4 – 21</string>
+    <string name="museum_address_3" translatable="false">Calle 24 # 6 – 00</string>
+    <string name="museum_address_4" translatable="false">Cra. 6 # 9 – 77</string>
+    <string name="museum_address_5" translatable="false">Calle 11 # 4 – 93</string>
+    <string name="museum_address_6" translatable="false">Calle 11 # 4 – 14</string>
+    <string name="museum_address_7" translatable="false">Cra. 6 # 15 – 82</string>
+    <string name="museum_address_8" translatable="false">Cra. 4 # 10 – 18</string>
+    <string name="museum_website_1" translatable="false">http://www.museonacional.gov.co</string>
+    <string name="museum_website_2" translatable="false">
+        http://banrepcultural.org/coleccion-de-arte-banco-de-la-republica</string>
+    <string name="museum_website_3" translatable="false">http://www.mambogota.com</string>
+    <string name="museum_website_4" translatable="false">http://www.museocolonial.gov.co</string>
+    <string name="museum_website_5" translatable="false">
+        http://www.banrepcultural.org/museos-y-colecciones/casa-de-moneda</string>
+    <string name="museum_website_6" translatable="false">
+        http://www.banrepcultural.org/museo-botero</string>
+    <string name="museum_website_7" translatable="false">
+        http://www.banrepcultural.org/museo-del-oro</string>
+    <string name="museum_website_8" translatable="false">http://museodebogota.gov.co</string>
+
+    <string name="park_name_1" translatable="false">Simón Bolivar</string>
+    <string name="park_name_2" translatable="false">Parque de la 93</string>
+    <string name="park_name_3" translatable="false">Parque el Virrey</string>
+    <string name="park_name_4" translatable="false">Parque de los Novios</string>
+    <string name="park_name_5" translatable="false">Parque Nacional</string>
+    <string name="park_name_6" translatable="false">Jardín Botánico</string>
+    <string name="park_name_7" translatable="false">Parque Independencia</string>
+    <string name="park_name_8" translatable="false">Cerro Monserrate</string>
+    <string name="park_address_1" translatable="false">Av. Calle 53 y Av. Esmeralda</string>
+    <string name="park_address_2" translatable="false">Cra. 13 # 93A</string>
+    <string name="park_address_3" translatable="false">Calle 87 con Cra. 7ma hasta Autopista Norte
+    </string>
+    <string name="park_address_4" translatable="false">Calle 63 # 45 – 10</string>
+    <string name="park_address_5" translatable="false">Calle 35 # 3 – 50</string>
+    <string name="park_address_6" translatable="false">Avenida Calle 63 # 68 – 95</string>
+    <string name="park_address_7" translatable="false">Cra 7 # 26 – 07</string>
+    <string name="park_address_8" translatable="false">Cra 2 Este No. 21 – 48</string>
+    <string name="park_website_1" translatable="false">http://www.idrd.gov.co/sitio/idrd/?q=node/233
+    </string>
+    <string name="park_website_2" translatable="false">http://parque93.com</string>
+    <string name="park_website_3" translatable="false">http://www.idrd.gov.co/sitio/idrd/node/300</string>
+    <string name="park_website_4" translatable="false">http://www.idrd.gov.co/sitio/idrd/content/
+        parque-el-lago-parque-de
+        -los-novios</string>
+    <string name="park_website_5" translatable="false">http://www.idrd.gov.co/sitio/idrd/node/243
+    </string>
+    <string name="park_website_6" translatable="false">http://www.jbb.gov.co</string>
+    <string name="park_website_7" translatable="false">http://www.idrd.gov.co/sitio/idrd/node/236
+    </string>
+    <string name="park_website_8" translatable="false">http://www.cerromonserrate.com/en/</string>
+    <string name="main_hours_park_1">Sunday to Sunday: 6 am - 6 pm</string>
+    <string name="main_hours_park_4">Monday to Friday: 8 am - 12 pm; 2pm - 4pm</string>
+    <string name="alt_hours_park_4">Saturday, Sunday and holidays: 10 am - 1 pm</string>
+    <string name="main_hours_park_6">Monday to Friday: 8 am - 5 pm</string>
+    <string name="alt_hours_park_6">Weekends and holidays: 9 am - 5 pm</string>
+    <string name="main_24_hours">24 Hours</string>
     <string name="websiteHours">Visit Website</string>
 
-    <string name="mainHoursParqueNovios">Monday to Friday: 8 am - 12 pm; 2pm - 4pm</string>
-    <string name="altHoursParqueNovios">Saturday, Sunday and holydays: 10 am - 1 pm</string>
-
+    <string name="restaurant_name_1" translatable="false">Piqueteadero Doña Segunda</string>
+    <string name="restaurant_name_2" translatable="false">Restaurante Doña Elvira</string>
+    <string name="restaurant_name_3" translatable="false">Restaurante Las Ojonas</string>
+    <string name="restaurant_name_4" translatable="false">Cañón Del Chicamocha</string>
+    <string name="restaurant_name_5" translatable="false">Refugio Marino</string>
+    <string name="restaurant_name_6" translatable="false">Pescadero Benjamin Bohorquez</string>
+    <string name="restaurant_name_7" translatable="false">Asadero Capachos</string>
+    <string name="restaurant_name_8" translatable="false">La Esquina Vegetariana</string>
+    <string name="restaurant_address_1" translatable="false">Cra 51 # 73</string>
+    <string name="restaurant_address_2" translatable="false">Cl. 50 # 20 – 26</string>
+    <string name="restaurant_address_3" translatable="false">Cra. 27a # 24 – 12</string>
+    <string name="restaurant_address_4" translatable="false">Calle 57 # 19 – 09</string>
+    <string name="restaurant_address_5" translatable="false">Calle 50a # 13 – 62</string>
+    <string name="restaurant_address_6" translatable="false">Av. 12 sur # 16 – 65</string>
+    <string name="restaurant_address_7" translatable="false">Calle 18 # 4 – 68</string>
+    <string name="restaurant_address_8" translatable="false">Cra. 11 # 69 – 26</string>
+    <string name="restaurant_website_1" translatable="false">
+        http://365bogota.com/mercados/piqueteadero-dona-segunda</string>
+    <string name="restaurant_website_2" translatable="false">
+        http://www.restaurantedonaelvira.com</string>
+    <string name="restaurant_website_3" translatable="false">
+        www.restaurantemagolitalasojonas.com</string>
+    <string name="restaurant_website_4" translatable="false">
+        http://www.cocinasemana.com/restaurantes/sucursal/canon-del-chicamocha/29969</string>
+    <string name="restaurant_website_5" translatable="false">
+        https://bogota.restorando.com.co/restaurante/refugio-marino</string>
+    <string name="restaurant_website_6" translatable="false">
+        <![CDATA[http://guiamultimedia.com.co/cliente.php?item=3&id=9&lang=1]]></string>
+    <string name="restaurant_website_7" translatable="false">http://www.asaderocapachos.com
+    </string>
+    <string name="restaurant_website_8" translatable="false">
+        https://www.atrapalo.com.co/restaurantes/la-esquina-vegetariana_f32428.html</string>
+    <string name="main_hours_restaurant_1">Sunday to Sunday: 7 am - 4 pm</string>
+    <string name="main_hours_restaurant_2">Wednesday to Sunday: 12 pm - 4 pm</string>
+    <string name="main_hours_restaurant_3">Sunday to Sunday: 10 am - 6 pm</string>
+    <string name="main_hours_restaurant_5">Sunday to Sunday: 12 pm - 4:30 pm</string>
+    <string name="main_hours_restaurant_6">Monday to Sunday: 11:30 am - 9:00 pm</string>
+    <string name="main_hours_restaurant_7">Tuesday to Sunday: 11:30 am - 3:00 pm</string>
+    <string name="main_hours_restaurant_8">Monday to Saturday: 11:30 am - 4:30 pm</string>
 </resources>

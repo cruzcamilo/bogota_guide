@@ -15,11 +15,9 @@ import java.util.ArrayList;
  */
 public class ParksFragment extends Fragment {
 
-
     public ParksFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,33 +26,36 @@ public class ParksFragment extends Fragment {
 
         final ArrayList<Place> parks = new ArrayList<Place>();
 
-        parks.add(new Place(R.drawable.simon_bolivar, "Simón Bolivar", "Av. Calle 53 y Av. Esmeralda",
-                R.string.mainHoursSM, 0, "http://www.idrd.gov.co/sitio/idrd/?q=node/233"));
-        parks.add(new Place(R.drawable.noventa_y_tres, "Parque de la 93", "Cra. 13 # 93A",
-                R.string.mainHours24, 0, "http://parque93.com/"));
-        parks.add(new Place(R.drawable.virrey, "Parque el Virrey",
-                "Cll 87 con Cra. 7ma hasta Autopista Norte", R.string.mainHours24, 0,
-                "http://www.idrd.gov.co/sitio/idrd/node/300"));
-        parks.add(new Place(R.drawable.novios, "Parque de los Novios", "Calle 63 # 45-10",
-                R.string.mainHoursParqueNovios, R.string.altHoursParqueNovios,
-                "http://www.idrd.gov.co/sitio/idrd/content/parque-el-lago-parque-de-los-novios"));
-        parks.add(new Place(R.drawable.nacional, "Parque Nacional", "Calle 35 # 3 - 50",
-                R.string.mainHoursDS, 0, "http://www.idrd.gov.co/sitio/idrd/node/243"));
-        parks.add(new Place(R.drawable.jardin_botanico, "Jardín Botánico",
-                "Avenida Calle 63 No. 68-95", R.string.mainHoursJardinBotanico,
-                R.string.altHoursJardinBotanico, "http://www.jbb.gov.co/"));
-        parks.add(new Place(R.drawable.independencia, "Parque Independencia", "Cra 7 # 26 - 07",
-                R.string.mainHoursSM, 0, "http://www.idrd.gov.co/sitio/idrd/node/236"));
-
-        parks.add(new Place(R.drawable.monserrate, "Cerro Monserrate", "Cra 2 Este No. 21-48",
-                R.string.websiteHours, 0, "http://www.cerromonserrate.com/en/"));
+        parks.add(new Place(R.drawable.simon_bolivar, getString(R.string.park_name_1),
+                getString(R.string.park_address_1), R.string.main_hours_park_1, 0,
+                getString(R.string.park_website_1)));
+        parks.add(new Place(R.drawable.noventa_y_tres, getString(R.string.park_name_2),
+                getString(R.string.park_address_2), R.string.main_24_hours, 0,
+                getString(R.string.park_website_2)));
+        parks.add(new Place(R.drawable.virrey, getString(R.string.park_name_3),
+                getString(R.string.park_address_3), R.string.main_24_hours, 0,
+                getString(R.string.park_website_3)));
+        parks.add(new Place(R.drawable.novios, getString(R.string.park_name_4),
+                getString(R.string.park_address_4), R.string.main_hours_park_4,
+                R.string.alt_hours_park_4,
+                getString(R.string.park_website_4)));
+        parks.add(new Place(R.drawable.nacional, getString(R.string.park_name_5),
+                getString(R.string.park_address_5), R.string.main_hours_restaurant_1, 0,
+                getString(R.string.park_website_5)));
+        parks.add(new Place(R.drawable.jardin_botanico, getString(R.string.park_name_6),
+                getString(R.string.park_address_6), R.string.main_hours_park_6,
+                R.string.alt_hours_park_6, getString(R.string.park_website_6)));
+        parks.add(new Place(R.drawable.independencia, getString(R.string.park_name_7),
+                getString(R.string.park_address_7), R.string.main_hours_park_1, 0,
+                getString(R.string.park_website_7)));
+        parks.add(new Place(R.drawable.monserrate, getString(R.string.park_name_8),
+                getString(R.string.park_address_8),  R.string.websiteHours, 0,
+                getString(R.string.park_website_8)));
 
         PlaceAdapter adapter =
                 new PlaceAdapter(getActivity(), parks, R.color.parksBackgroundColor);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
-
         return rootView;
     }
-
 }

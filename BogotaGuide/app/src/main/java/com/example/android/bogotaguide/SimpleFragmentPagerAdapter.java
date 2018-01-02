@@ -16,7 +16,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             R.drawable.malls
     };
 
-
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
@@ -26,9 +25,9 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new MuseumsFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new ParksFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new RestaurantsFragment();
         } else {
             return new MallsFragment();
@@ -50,8 +49,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-
         return 4;
     }
 }
-

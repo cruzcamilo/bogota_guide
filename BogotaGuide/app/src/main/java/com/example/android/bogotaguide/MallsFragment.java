@@ -1,6 +1,5 @@
 package com.example.android.bogotaguide;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,16 +9,11 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MallsFragment extends Fragment {
-
 
     public MallsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,23 +22,24 @@ public class MallsFragment extends Fragment {
 
         final ArrayList<Place> malls = new ArrayList<Place>();
 
-        malls.add(new Place("Unicentro", "Cra. 15 # 124 - 30", R.string.mainHoursUni, 0,
-                "http://www.unicentrobogota.com"));
-        malls.add(new Place("Andino", "Cra. 11 # 82 - 71", R.string.mainHoursAn, R.string.altHoursAn,
-                "https://www.centroandino.com.co"));
-        malls.add(new Place("Santa Fe", "Calle 185 # 45 - 03", R.string.mainHoursSF,
-                R.string.altHoursSF, "http://www.centrocomercialsantafe.com/bogota"));
-
-        malls.add(new Place("Titán Plaza", "Av. Boyacá # 80 - 94", R.string.mainHoursTP, 0,
-                "http://www.titanplaza.com"));
-        malls.add(new Place("Gran Estación", "Av. Calle 26 # 62 - 47", R.string.mainHoursGE, 0,
-                "http://www.granestacion.com.co"));
-        malls.add(new Place("Plaza de las Américas", "Transversal 71 D # 6 - 94 Sur",
-                R.string.mainHoursPA, 0, "https://www.plazadelasamericas.com.co/"));
-        malls.add(new Place("Calima", "Av. Cra. 30 # 19",
-                R.string.mainHoursPA, 0,  "http://www.calimaccbogota.com/"));
-        malls.add(new Place("Plaza Central", "Cra. 65 # 11 - 50", R.string.mainHoursPC,
-                0, "https://centrocomercialplazacentral.com/"));
+        malls.add(new Place(getString(R.string.mall_name_1), getString(R.string.mall_address_1),
+                R.string.main_hours_mall_1, 0, getString(R.string.mall_website_1)));
+        malls.add(new Place(getString(R.string.mall_name_2), getString(R.string.mall_address_2),
+                R.string.main_hours_mall_2, R.string.alt_hours_mall_2,
+                getString(R.string.mall_website_2)));
+        malls.add(new Place(getString(R.string.mall_name_3), getString(R.string.mall_address_3),
+                R.string.main_hours_mall_3, R.string.alt_hours_mall_3,
+                getString(R.string.mall_website_3)));
+        malls.add(new Place(getString(R.string.mall_name_4), getString(R.string.mall_address_4),
+                R.string.main_hours_mall_4, 0, getString(R.string.mall_website_4)));
+        malls.add(new Place(getString(R.string.mall_name_5), getString(R.string.mall_address_5),
+                R.string.main_hours_mall_5, 0, getString(R.string.mall_website_5)));
+        malls.add(new Place(getString(R.string.mall_name_6), getString(R.string.mall_address_6),
+                R.string.main_hours_mall_6, 0, getString(R.string.mall_website_6)));
+        malls.add(new Place(getString(R.string.mall_name_7), getString(R.string.mall_address_7),
+                R.string.main_hours_mall_6, 0, getString(R.string.mall_website_7)));
+        malls.add(new Place(getString(R.string.mall_name_8), getString(R.string.mall_address_8),
+                R.string.main_hours_mall_8, 0, getString(R.string.mall_website_8)));
 
         PlaceAdapter adapter =
                 new PlaceAdapter(getActivity(), malls, R.color.mallsBackgroundColor);
@@ -53,5 +48,4 @@ public class MallsFragment extends Fragment {
 
         return rootView;
     }
-
 }

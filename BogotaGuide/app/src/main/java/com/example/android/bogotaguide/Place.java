@@ -75,7 +75,6 @@ public class Place {
 
     public int getAlternativeHours() {
         return alternativeHours;
-
     }
 
     /*
